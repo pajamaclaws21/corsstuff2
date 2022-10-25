@@ -14,7 +14,7 @@
       
       <div id="error"></div>
 
-      <form action="no-js" method="get" id="unblocker-form">
+      <form action="no-js" method="get" id="unb-form">
         <p>
           URL: 
           <input type="text" id="url" name="url" autofocus="autofocus" />
@@ -22,32 +22,14 @@
         </p>
 
       </form>
-      
-<div id="google-ad">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Nodeunblocker.com -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:336px;height:280px"
-     data-ad-client="ca-pub-9477050254721722"
-     data-ad-slot="3464697570"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
-    </div>
-    
-    <div class="footer">
-      <p>Node CORS Stuff by <a href="http://www.nfriedly.com/" title="Node.js developer and JavaScript Expert">Nathan Friedly</a></p>
-    </div>
-  
-  </div>
-	<script>
+     
+	  </div></div></div>
+  	<script>
 		function $(id){
 			return document.getElementById(id);
 		}
 		
-		$('unblocker-form').onsubmit = function(){
+		$('unb-form').onsubmit = function(){
 			var url = $('url').value;
 			if(url.substr(0,4) != "http"){
 				url = "http://" + url;
