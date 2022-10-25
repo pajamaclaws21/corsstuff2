@@ -18,8 +18,8 @@ var youtube = require('unblocker/examples/youtube/youtube.js')
 
 var app = express();
 
+/*
 var google_analytics_id = process.env.GA_ID || null;
-
 function addGa(html) {
     if (google_analytics_id) {
         var ga = [
@@ -52,15 +52,16 @@ function googleAnalyticsMiddleware(data) {
         }));
     }
 }
+*/
 
 var unblocker = new Unblocker({
     prefix: '/prx/',
     requestMiddleware: [
         youtube.processRequest
     ],
-    responseMiddleware: [
+    /* responseMiddleware: [
         googleAnalyticsMiddleware
-    ]
+    ] */
 });
 
 // this line must appear before any express.static calls (or anything else that sends responses)
