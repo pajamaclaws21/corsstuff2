@@ -1,14 +1,5 @@
 # nodeunblocker.com
 
-Evade internet censorship!
-
-The original nodeunblocker.com is gone, but it's now easier than ever to deploy your own copy.
-
-[![Deploy to Bluemix](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/nfriedly/nodeunblocker.com)
-[![Deploy to AWS](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/nfriedly/nodeunblocker.com)
-[![Deploy to Cyclic](https://deploy.cyclic.sh/button.svg)](https://deploy.cyclic.sh/)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnfriedly%2Fnodeunblocker.com)
-
 ## Now with YouTube support (sort of)
 
 I went ahead and activated the [youtube example](https://github.com/nfriedly/node-unblocker/blob/master/examples/youtube/youtube.js), it replaces youtube.com video pages with a custom page that just streams the video (but actually works). 
@@ -18,8 +9,6 @@ To disable it just add `//` to the beginning of [this line of code in app.js](ht
 ```js
 //        youtube.processRequest
 ```
-
-## Running the website on your computer
 
 1. Install [node.js](http://nodejs.org/)
 2. [Download the code](https://github.com/nfriedly/nodeunblocker.com/archive/master.zip)
@@ -40,7 +29,7 @@ This project should be runnable without modification on many cloud providers. Cl
 
 # About the project
 
-The the core of the nodeunblocker.com has been extracted into a [standalone library](https://github.com/nfriedly/node-unblocker) to make it more flexible, but everything you need to run the website is right here.
+The the core of the ### has been extracted into a [standalone library](https://github.com/nfriedly/node-unblocker) to make it more flexible, but everything you need to run the website is right here.
 
 This project is released under the terms of the [GNU Affero General Public License version 3](https://www.gnu.org/licenses/agpl-3.0.html).
 
